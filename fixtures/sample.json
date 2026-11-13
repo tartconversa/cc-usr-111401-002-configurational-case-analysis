@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "sample-1",
+    "conditions": [
+      "组织",
+      "空间"
+    ],
+    "calibration": "cal-1"
+  },
+  "collections": {
+    "cases": [
+      {
+        "id": "v1",
+        "revision": 1,
+        "memberships": {
+          "组织": 0.9,
+          "空间": 0.8
+        },
+        "outcome": 0.9,
+        "weight": 1
+      },
+      {
+        "id": "v2",
+        "revision": 1,
+        "memberships": {
+          "组织": 0.2,
+          "空间": 0.7
+        },
+        "outcome": 0.3,
+        "weight": 1
+      }
+    ]
+  }
+}
