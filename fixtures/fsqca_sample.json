@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "data_version": "fsqca-sample-1",
+    "conditions": [
+      "组织",
+      "空间",
+      "资金",
+      "人才"
+    ],
+    "calibration": "cal-demo-1"
+  },
+  "collections": {
+    "cases": [
+      {"id": "c01", "revision": 1, "memberships": {"组织": 0.9, "空间": 0.9, "资金": 0.9, "人才": 0.9}, "outcome": 0.9, "weight": 1},
+      {"id": "c02", "revision": 1, "memberships": {"组织": 0.85, "空间": 0.9, "资金": 0.8, "人才": 0.9}, "outcome": 0.85, "weight": 2},
+      {"id": "c03", "revision": 1, "memberships": {"组织": 0.9, "空间": 0.9, "资金": 0.9, "人才": 0.2}, "outcome": 0.8, "weight": 1},
+      {"id": "c04", "revision": 1, "memberships": {"组织": 0.8, "空间": 0.9, "资金": 0.85, "人才": 0.15}, "outcome": 0.85, "weight": 1},
+      {"id": "c05", "revision": 1, "memberships": {"组织": 0.9, "空间": 0.2, "资金": 0.9, "人才": 0.9}, "outcome": 0.8, "weight": 1},
+      {"id": "c06", "revision": 1, "memberships": {"组织": 0.85, "空间": 0.15, "资金": 0.9, "人才": 0.85}, "outcome": 0.75, "weight": 1},
+      {"id": "c07", "revision": 1, "memberships": {"组织": 0.2, "空间": 0.2, "资金": 0.9, "人才": 0.2}, "outcome": 0.3, "weight": 1},
+      {"id": "c08", "revision": 1, "memberships": {"组织": 0.15, "空间": 0.25, "资金": 0.85, "人才": 0.2}, "outcome": 0.25, "weight": 1},
+      {"id": "c09", "revision": 1, "memberships": {"组织": 0.2, "空间": 0.9, "资金": 0.2, "人才": 0.9}, "outcome": 0.2, "weight": 1},
+      {"id": "c10", "revision": 1, "memberships": {"组织": 0.9, "空间": 0.9, "资金": 0.2, "人才": 0.9}, "outcome": 0.85, "weight": 1},
+      {"id": "c11", "revision": 1, "memberships": {"组织": 0.2, "空间": 0.2, "资金": 0.2, "人才": 0.2}, "outcome": 0.1, "weight": 1},
+      {"id": "c12", "revision": 1, "memberships": {"组织": 0.7, "空间": 0.8, "资金": 0.75, "人才": 0.8}, "outcome": 0.9, "weight": 0.5},
+      {"id": "c13", "revision": 1, "memberships": {"组织": null, "空间": 0.8, "资金": 0.8, "人才": 0.8}, "outcome": 0.8, "weight": 1},
+      {"id": "c14", "revision": 1, "memberships": {"组织": 0.8, "空间": 0.8, "资金": 0.8, "人才": 0.8}, "outcome": null, "weight": 1},
+      {"id": "c15", "revision": 1, "memberships": {"组织": 0.8, "空间": 0.5, "资金": 0.8, "人才": 0.8}, "outcome": 0.8, "weight": 1},
+      {"id": "c16", "revision": 1, "memberships": {"组织": 0.85, "空间": 0.9, "资金": 0.85, "人才": 0.85}, "outcome": 0.9, "weight": 1}
+    ]
+  }
+}

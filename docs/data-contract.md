@@ -17,3 +17,7 @@ cases 含 memberships、outcome、weight，隶属度在[0,1]或为null。conditi
 ## 当前能力
 
 app.baseline.analyze(snapshot)产生已有摘要，app.service.inspect负责绑定输入身份；新增分析可以增设独立入口，已有接口及上述数据语义保持兼容。
+
+## 扩展分析入口
+
+app.fsqca_service 在上述契约之上提供模糊集组态分析（探索性）：缺测案例不补 0，其排除范围随每次结果公开；校准版本、资料版本与输入摘要哈希随结果绑定。分析口径（条件子集、频数与一致性门槛、方向预期、余项借用政策、否定结果）均为调用方选项，语义与输出结构见 docs/fsqca.md。
